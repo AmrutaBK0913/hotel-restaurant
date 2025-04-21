@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THEMOON</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.css" integrity="sha512-DKdRaC0QGJ/kjx0U0TtJNCamKnN4l+wsMdION3GG0WVK6hIoJ1UPHRHeXNiGsXdrmq19JJxgIubb/Z7Og2qJww==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+</head>
+<body>
+    <header class="main-bar">
+        <section class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="THEMOON">
+            </div>
+            <h1  class="heading">THE MOON <BR>HOTEL & RESTAURANT</h1>
+            
+                <ul class="list">
+                    <li ><a href="home.html">HOME</a></li>
+                    <li><a href="rooms.html">ROOMS</a></li>
+                    <li class="current"><a href="food.html">FOOD</a></li>
+                </ul>
+            </section>
+    </header>
+    <section class="greating">
+        <h1 class="gradient-text">WELCOME</h1>
+        <br>
+        <P class="p">"Your dream vacation starts here—donot miss out!"</P>
+        <br>
+        <h1 class="f"> 🍽️✨ HAVE IT WITHOUT DOUBT 🍽️✨</h1>
+    </section>
+    <section class="foodo">
+        <a href="images/kitchen.png"  data-lightbox="image-1"><img src="images/kitchen.png" alt="kitchen" class="food-image"></a>
+        <a href="images/dtable.png" data-lightbox="image-2"><img src="images/dtable.png" alt="dtable" class="food-image"></a>
+        <a hre="images/mchefs.png" data-lightbox="image-3"><img src="images/mchefs.png" alt="mchefs" class="food-image"></a>
+        <a href="images/nchef.png" data-lightbox="image-4"><img src="images/nchef.png" alt="nchef" class="food-image"></a>
+        <a href="images/p.png" data-lightbox="image-5"><img src="images/p.png" alt="p" class="food-image"></a>
+    </section>
+    <section class="order">
+        <from>
+            <label for="fruites">Fruites</label>
+            <br>
+            <select id="fruites" name="fruites" required placeholder="Select your fruites">
+                <option value="apple" >Apple</option>
+                <option value="banana">Banana</option>
+                <option value="orange">Orange</option>
+                <option value="Kiwi">Kiwi</option>
+                <option value="pinaple">Pinaple</option>
+                <option value="mango">Mango</option>
+                <option value="grape">Grape</option>
+                <option value="watermelon">Watermelon</option>
+                <option value="peach">Peach</option>
+                <option value="Strawberry">Strawberry</option>
+            </select>
+            <br><br>
+            <textarea  name="fruites" class="fentery" placeholder="Enter your fruites"></textarea>
+            <br>
+            <br><br>
+
+            <label for="sothfood">South Food</label>
+            <br>
+            <select id="sothfood" name="fruites" required placeholder="Select your food">
+                <option value="dosa" >Dosa:-masal dosa, onion dosa</option>
+                <option value="idle">Idle</option>
+                <option value="vade">Vade</option>
+                <option value="Pongal">Pongal</option>
+                <option value="upma">Upma</option>
+                <option value="appam">Appam</option>
+                <option value="uttapa">Uttapa</option>
+                <option value="tea/Coffe">Tea/Coffe</option>
+
+            </select>
+            <br><br>
+            <textarea  name="south-Food" class="south-Food" placeholder="Enter your south-Food"></textarea>
+            <br>
+            <br><br>
+            
+            <label for="pizza-m">Cafe</label>
+            <br>
+            <select id="pizza-m" name="pizza-m" required placeholder="Select your item">
+                <option value="coffe" >cold coffe:- hot choco coffe,icecream coffe</option>
+                <option value="pizza">Pizza,marget pizza,veg loded pizza, cheese pizza </option>
+                <option value="fries">Fries</option>
+                <option value="Burger">Burger, Alo tick burger, cees burger ,veg loded burger</option>
+                <option value="ice crem">ice cream</option>
+            </select>
+            <br><br>
+            <textarea  name="pizza-m" class="pizza-m" placeholder="Enter your items"></textarea>
+            <br>
+            <br><br>
+
+            <label for="chines">Chines-Food</label>
+            <br>
+            <select id="chines" name="chines" required placeholder="Select your item">
+                <option value="Manchuri" >Manchuri:- gobi ,panner, mashroom </option>
+                <option value="noodle">Noodle:-red sauce noodle,white sauce noodle, cheese noodle </option>
+                <option value="soup">Soup:tamoto,coern,mashrooom,veg soup</option>
+                <option value="Momo">Momo:-veg momo,panner momo</option>
+            </select>
+            <br><br>
+            <textarea  name="chines" class="chines" placeholder="Enter your items"></textarea>
+            <br>
+            <br><br>
+            <input type="submit" value="Order Now" class="btn1">
+        </from>
+    </section>
+    <section class="footer">
+        <div class="follow">
+            <h1> Follows us </h1>
+            <br><br><br><br>
+            <a href="#"><i class="fab fa-facebook fa-5x" id="facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-5x" id="insta"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-5x" id="tw"></i></a>
+            <a href="#"><i class="fab fa-pinterest fa-5x" id="pin"></i></a>
+            <a href="#"><i class="fab fa-tumblr fa-5x" id="tum"></i></a>
+        </div>
+        <div class="contact">
+            <h1> Contact Us</h1>
+            <br>
+            <p> Phone: (91+) 9945-0913-913</p><br>
+            <p>Address: space 3<sup>rd</sup> milkway moon</p><br>
+            <p>Email:@themoongmail.com</p>       
+        </div>    
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox.min.js" integrity="sha512-KbRFbjA5bwNan6DvPl1ODUolvTTZ/vckssnFhka5cG80JVa5zSlRPCr055xSgU/q6oMIGhZWLhcbgIC0fyw3RQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+</html>
